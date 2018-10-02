@@ -11,6 +11,7 @@
     String class2 = "";
     String class3 = "";
     String class4 = "";
+    String class5 = "";
     //out.println(request);
     int menuNumber = (Integer) request.getAttribute("MenuNumber");
     if(menuNumber==0)
@@ -21,6 +22,8 @@
         class3="active-link";
     if(menuNumber==3)
         class4="active-link";
+    if(menuNumber==4)
+        class5="active-link";
 %>
 <div class="navbar-container">
     <ul>
@@ -38,7 +41,11 @@
             <div class="underline"></div>
         </li>
         <li class="nav-link <%=class4%>">
-            <a href="/TP/Decalage.html">Contact</a>
+            <a href="/TP/Decalage.html">Opérateur</a>
+            <div class="underline"></div>
+        </li>
+        <li class="nav-link <%=class5%>">
+            <a href="/TP/Damier.html">Damier</a>
             <div class="underline"></div>
         </li>
     </ul>

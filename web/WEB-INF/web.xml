@@ -20,6 +20,10 @@
         <servlet-name>Decalage</servlet-name>
         <servlet-class>TP.Shift</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Damier</servlet-name>
+        <servlet-class>TP.Damier</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>FirstPage</servlet-name>
@@ -36,6 +40,10 @@
     <servlet-mapping>
         <servlet-name>Decalage</servlet-name>
         <url-pattern>/TP/Decalage.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Damier</servlet-name>
+        <url-pattern>/TP/Damier.html</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
