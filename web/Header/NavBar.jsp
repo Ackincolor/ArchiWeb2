@@ -38,7 +38,7 @@
             <div class="underline"></div>
         </li>
         <li class="nav-link <%=class4%>">
-            <a href="#">Contact</a>
+            <a href="/TP/Decalage.html">Contact</a>
             <div class="underline"></div>
         </li>
     </ul>

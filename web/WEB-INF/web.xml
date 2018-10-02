@@ -16,6 +16,10 @@
         <servlet-name>TestP5</servlet-name>
         <servlet-class>TP.TestP5</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Decalage</servlet-name>
+        <servlet-class>TP.Shift</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>FirstPage</servlet-name>
@@ -29,8 +33,13 @@
         <servlet-name>TestP5</servlet-name>
         <url-pattern>/TP/TestP5.html</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Decalage</servlet-name>
+        <url-pattern>/TP/Decalage.html</url-pattern>
+    </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    
 
 </web-app>
